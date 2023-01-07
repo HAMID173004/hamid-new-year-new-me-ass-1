@@ -1,51 +1,102 @@
 * {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.btn-primary {
-    display: flex;
-    height: 64px;
-    background: #F15B22;
-    border-radius: 5px;
-    color: #FFFFFF;
+.btn {
+  position: absolute;
+  border: 0px;
+  padding: 18px 35px;
+  color: #FFFFFF;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #FD6E0A;
+  width: 160px;
+  height: 64px;
+  left: 1200px;
+  top: 528px;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 /* Banner Styles */
 .banner {
-    position: absolute;
-    margin: 0 100px;
-    display: flex;
+  position: absolute;
+  margin: 0 100px;
+  display: flex;
 }
 
-.headline{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 300px;
 }
-.headline2{
-    position: absolute;
+
+.headline2 {
+  position: absolute;
   bottom: 8px;
   right: 16px;
 }
+
 /* Container holding the image and the text */
 .container {
-    position: relative;
-  }
-  
-  /* Bottom right text */
-  .text-block{
-    position: absolute;
-width: 525px;
-height: 228px;
-left: 845px;
-top: 216px;
-  }
-  .text-block2{
-    position: absolute;
-/* width: 494px;
-height: 78px;
-left: 876px;
-top: 468px; */
-  }
+  position: relative;
+}
+
+/* Bottom right text */
+.main-text {
+  position: absolute;
+  width: 525px;
+  height: 228px;
+  left: 845px;
+  top: 200px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: right;
+}
+
+.sub-text {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  width: 494px;
+  height: 78px;
+  left: 876px;
+  top: 440px;
+}
+
+/* Failure 2nd page */
+.failure {
+  background: url(ff.png);
+  position: absolute;
+  width: 416px;
+  height: 400px;
+  left: 862px;
+  top: 1178px;
+}
+
+.failure-person {
+  background: url(ff.png);
+  margin: 130px;
+  position: absolute;
+  width: 569px;
+  height: 723.3px;
+}
+
+.failure-main {
+  background: url(ff.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
