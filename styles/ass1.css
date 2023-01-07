@@ -78,14 +78,21 @@
   height: 400px;
   left: 862px;
   top: 1178px;
+  margin-bottom: 1700px;
 }
 
 .failure-person {
-  background: url(ff.png);
-  margin: 130px;
+  margin-bottom: 130px;
   position: absolute;
   width: 569px;
   height: 723.3px;
+  left: 206px;
+  top: 939px;
+  /* background: url(ff.png);
+  margin: 130px;
+  position: absolute;
+  width: 569px;
+  height: 723.3px; */
 }
 
 .failure-main {
@@ -93,10 +100,63 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 130px;
 }
 
 .failure-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
+}
+
+/* My planes */
+.my-plans {
+  
+  position: absolute;
+  top: 1792.3px;
+  margin: 0 730px 0 730px;
+  
+}
+
+.plans {
+  display: flex;
+  justify-items: center;
+}
+
+.plans-title{
+  justify-content: center;
+}
+.plans-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.plans {
+  position: absolute;
+  align-items: center;
+}
+
+.plans-item {
+  justify-content: space-between;
+
+}
+/* Background */
+.background{
+  position: absolute;
+}
+.background-fig{
+  position: absolute;
+width: 459px;
+height: 94px;
+left: 294px;
+top: 2275.3px;
+color: #FFFFFF;
+}
+.background-info{
+  top: 2275.3px;
+  position: absolute;
+  margin-left: 240px;
+  
 }
