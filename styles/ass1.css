@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    display: flex;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+/* Banner Styles */
+.banner {
+    position: absolute;
+    margin: 0 100px;
+    display: flex;
+}
+
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.headline2{
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block{
+    position: absolute;
+width: 525px;
+height: 228px;
+left: 845px;
+top: 216px;
+  }
+  .text-block2{
+    position: absolute;
+/* width: 494px;
+height: 78px;
+left: 876px;
+top: 468px; */
+  }
